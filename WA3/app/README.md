@@ -7,21 +7,32 @@ Frontend je izrađen u **Vue 3 (Vite)**, a backend koristi **Express.js**.
 
 ## Pokretanje Frontenda
 
-sh**
+```
 cd pizza-vue
+```
+
+```
 npm install
+```
+
+```
 npm run dev
-**
+```
+
 
 Frontend radi na: http://localhost:5173
 
 ## Pokretanje Backenda
 
-sh**
+```
 cd pizza-express
+```
+```
 npm install
+```
+```
 node index.js
-**
+```
 
 Backend radi na: http://localhost:3000
 

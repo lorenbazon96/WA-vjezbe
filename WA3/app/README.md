@@ -5,6 +5,10 @@ Samostalni Zadatak za vježbu 3
 Ovaj projekt sastoji se od **frontend** i **backend** dijela.  
 Frontend je izrađen u **Vue 3 (Vite)**, a backend koristi **Express.js**.
 
+## Postman link
+
+https://www.postman.com/technical-astronomer-97079522/workspace/pizze-vjezba-3
+
 ## Pokretanje Frontenda
 
 ```

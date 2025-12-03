@@ -5,26 +5,23 @@ Samostalni Zadatak za vježbu 3
 Ovaj projekt sastoji se od **frontend** i **backend** dijela.  
 Frontend je izrađen u **Vue 3 (Vite)**, a backend koristi **Express.js**.
 
-## Struktura projekta
-
-/app/
-├── README.md
-├── pizza-vue/
-└── pizza-express/
-
 ## Pokretanje Frontenda
 
+sh**
 cd pizza-vue
 npm install
 npm run dev
+**
 
 Frontend radi na: http://localhost:5173
 
 ## Pokretanje Backenda
 
+sh**
 cd pizza-express
 npm install
 node index.js
+**
 
 Backend radi na: http://localhost:3000
 
@@ -40,10 +37,10 @@ POST /narudzbe
 
 ## Implementirane dodatne funkcionalnosti
 
-✔ Unos podataka za dostavu  
-✔ Brisanje stavki iz košarice  
-✔ Prikaz statusnih poruka iz API-ja  
-✔ Modal s detaljima pizze
+- Unos podataka za dostavu  
+- Brisanje stavki iz košarice  
+- Prikaz statusnih poruka iz API-ja  
+- Modal s detaljima pizze
 
 ## Tehnologije
 

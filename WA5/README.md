@@ -6,14 +6,14 @@ Samostalni Zadatak za vježbu 5
 
 Projekt je podijeljen na dva dijela:
 
-- **frontend/** — Vue 3 aplikacija (Vite)
-- **backend/** — Express.js API povezan na MongoDB Atlas
+- **pizza-vue/** — Vue 3 aplikacija (Vite)
+- **pizza-express/** — Express.js API povezan na MongoDB Atlas
 
 ## MongoDB konfiguracija
 
 Backend koristi **MongoDB Atlas** i varijable okruženja.
 
-Potrebno je u direktoriju `backend/` kreirati `.env` datoteku sa sljedećim varijablama:
+Potrebno je u direktoriju `pizza-express/` kreirati `.env` datoteku sa sljedećim varijablama:
 
 ```env
 MONGO_URI=mongodb+srv://<USERNAME>:<PASSWORD>@<CLUSTER_URL>/?retryWrites=true&w=majority
@@ -92,13 +92,10 @@ Otvorite: http://localhost:5173
 - GET /pizze (podržava query parametre: naziv, cijena_min, cijena_max, sort)
 - GET /pizze/:naziv
 - POST /pizze
-- PATCH /pizze/:naziv
-- DELETE /pizze/:naziv
 
 ### Narudžbe
 
 - POST /narudzba
-- PATCH /narudzbe/:id
 
 ## Implementirane funkcionalnosti
 
@@ -113,3 +110,4 @@ Vue 3, Vite, Tailwind, Express, Node.js, MongoDB Atlas, MongoDB Node.js driver
 ## Autor
 
 Loren Bažon
+
